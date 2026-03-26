@@ -80,7 +80,7 @@ resource "aws_instance" "monitoring" {
   user_data = file("userdata.sh")
 
   tags = {
-    Name = "Monitoring-Server"
+    Name = "Monitoring-Server-ec2"
   }
 }
 
